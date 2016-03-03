@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS contacts (
+  id   INT NOT NULL AUTO_INCREMENT primary KEY ,
+  name VARCHAR(225)
+);
+

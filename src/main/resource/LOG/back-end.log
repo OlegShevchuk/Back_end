@@ -1,0 +1,800 @@
+2016-02-24 21:27:38 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:27:38 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:27:38 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:35:25 org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+### The error may involve Back_end.dao.ContactMapper.creat-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO contacts (id,name) VALUE(NULL,?)
+### Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+2016-02-24 21:35:25 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:35:25 org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+### The error may involve Back_end.dao.ContactMapper.creat-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO contacts (id,name) VALUE(NULL,?)
+### Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+2016-02-24 21:35:25 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:35:25 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:35:25 org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+### The error may involve Back_end.dao.ContactMapper.creat-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO contacts (id,name) VALUE(NULL,?)
+### Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+2016-02-24 21:35:25 org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+### The error may involve Back_end.dao.ContactMapper.creat-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO contacts (id,name) VALUE(NULL,?)
+### Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+2016-02-24 21:35:25 org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+### The error may involve Back_end.dao.ContactMapper.creat-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO contacts (id,name) VALUE(NULL,?)
+### Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+2016-02-24 21:35:25 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:35:25 org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+### The error may involve Back_end.dao.ContactMapper.creat-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO contacts (id,name) VALUE(NULL,?)
+### Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+2016-02-24 21:36:17 org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+### The error may involve Back_end.dao.ContactMapper.creat-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO contacts (id,name) VALUE(NULL,?)
+### Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+2016-02-24 21:36:17 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:36:17 org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+### The error may involve Back_end.dao.ContactMapper.creat-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO contacts (id,name) VALUE(NULL,?)
+### Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+2016-02-24 21:36:17 org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+### The error may involve Back_end.dao.ContactMapper.creat-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO contacts (id,name) VALUE(NULL,?)
+### Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+2016-02-24 21:36:17 org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+### The error may involve Back_end.dao.ContactMapper.creat-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO contacts (id,name) VALUE(NULL,?)
+### Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+2016-02-24 21:36:17 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:36:17 org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+### The error may involve Back_end.dao.ContactMapper.creat-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO contacts (id,name) VALUE(NULL,?)
+### Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+2016-02-24 21:36:17 org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+### The error may involve Back_end.dao.ContactMapper.creat-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO contacts (id,name) VALUE(NULL,?)
+### Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+2016-02-24 21:36:17 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:36:17 org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+### The error may involve Back_end.dao.ContactMapper.creat-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO contacts (id,name) VALUE(NULL,?)
+### Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+2016-02-24 21:40:21 org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+### The error may involve Back_end.dao.ContactMapper.creat-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO contacts (id,name) VALUE(NULL,?)
+### Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+2016-02-24 21:40:21 org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+### The error may involve Back_end.dao.ContactMapper.creat-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO contacts (id,name) VALUE(NULL,?)
+### Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+2016-02-24 21:40:22 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:40:22 org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+### The error may involve Back_end.dao.ContactMapper.creat-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO contacts (id,name) VALUE(NULL,?)
+### Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+2016-02-24 21:40:22 org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+### The error may involve Back_end.dao.ContactMapper.creat-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO contacts (id,name) VALUE(NULL,?)
+### Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+2016-02-24 21:40:22 org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+### The error may involve Back_end.dao.ContactMapper.creat-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO contacts (id,name) VALUE(NULL,?)
+### Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+2016-02-24 21:40:22 org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+### The error may involve Back_end.dao.ContactMapper.creat-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO contacts (id,name) VALUE(NULL,?)
+### Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+2016-02-24 21:40:22 org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+### The error may involve Back_end.dao.ContactMapper.creat-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO contacts (id,name) VALUE(NULL,?)
+### Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+2016-02-24 21:40:22 org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+### The error may involve Back_end.dao.ContactMapper.creat-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO contacts (id,name) VALUE(NULL,?)
+### Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+2016-02-24 21:40:22 org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+### The error may involve Back_end.dao.ContactMapper.creat-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO contacts (id,name) VALUE(NULL,?)
+### Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'name' at row 1
+2016-02-24 21:41:49 org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: com.mysql.jdbc.PacketTooBigException: Packet for query is too large (100641687 > 4194304). You can change this value on the server by setting the max_allowed_packet' variable.
+### The error may involve Back_end.dao.ContactMapper.creat-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO contacts (id,name) VALUE(NULL,?)
+### Cause: com.mysql.jdbc.PacketTooBigException: Packet for query is too large (100641687 > 4194304). You can change this value on the server by setting the max_allowed_packet' variable.
+2016-02-24 21:41:49 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:41:50 org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: com.mysql.jdbc.PacketTooBigException: Packet for query is too large (13805335 > 4194304). You can change this value on the server by setting the max_allowed_packet' variable.
+### The error may involve Back_end.dao.ContactMapper.creat-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO contacts (id,name) VALUE(NULL,?)
+### Cause: com.mysql.jdbc.PacketTooBigException: Packet for query is too large (13805335 > 4194304). You can change this value on the server by setting the max_allowed_packet' variable.
+2016-02-24 21:41:54 org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: com.mysql.jdbc.PacketTooBigException: Packet for query is too large (74439915 > 4194304). You can change this value on the server by setting the max_allowed_packet' variable.
+### The error may involve Back_end.dao.ContactMapper.creat-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO contacts (id,name) VALUE(NULL,?)
+### Cause: com.mysql.jdbc.PacketTooBigException: Packet for query is too large (74439915 > 4194304). You can change this value on the server by setting the max_allowed_packet' variable.
+2016-02-24 21:41:54 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:41:54 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:41:57 org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: com.mysql.jdbc.PacketTooBigException: Packet for query is too large (47064923 > 4194304). You can change this value on the server by setting the max_allowed_packet' variable.
+### The error may involve Back_end.dao.ContactMapper.creat-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO contacts (id,name) VALUE(NULL,?)
+### Cause: com.mysql.jdbc.PacketTooBigException: Packet for query is too large (47064923 > 4194304). You can change this value on the server by setting the max_allowed_packet' variable.
+2016-02-24 21:41:58 org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: com.mysql.jdbc.PacketTooBigException: Packet for query is too large (21199449 > 4194304). You can change this value on the server by setting the max_allowed_packet' variable.
+### The error may involve Back_end.dao.ContactMapper.creat-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO contacts (id,name) VALUE(NULL,?)
+### Cause: com.mysql.jdbc.PacketTooBigException: Packet for query is too large (21199449 > 4194304). You can change this value on the server by setting the max_allowed_packet' variable.
+2016-02-24 21:42:03 org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: com.mysql.jdbc.PacketTooBigException: Packet for query is too large (85610575 > 4194304). You can change this value on the server by setting the max_allowed_packet' variable.
+### The error may involve Back_end.dao.ContactMapper.creat-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO contacts (id,name) VALUE(NULL,?)
+### Cause: com.mysql.jdbc.PacketTooBigException: Packet for query is too large (85610575 > 4194304). You can change this value on the server by setting the max_allowed_packet' variable.
+2016-02-24 21:42:04 org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: com.mysql.jdbc.PacketTooBigException: Packet for query is too large (21347809 > 4194304). You can change this value on the server by setting the max_allowed_packet' variable.
+### The error may involve Back_end.dao.ContactMapper.creat-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO contacts (id,name) VALUE(NULL,?)
+### Cause: com.mysql.jdbc.PacketTooBigException: Packet for query is too large (21347809 > 4194304). You can change this value on the server by setting the max_allowed_packet' variable.
+2016-02-24 21:44:43 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:44:43 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:44:43 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:44:43 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:44:43 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:44:43 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:44:44 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:44:44 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:44:44 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:44:44 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:50:09 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:50:09 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:50:09 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:50:09 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:50:09 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:50:09 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:50:09 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:50:09 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:50:10 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:50:10 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:59:18 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:59:18 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:59:19 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:59:19 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:59:19 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:59:19 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:59:19 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:59:19 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:59:19 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 21:59:19 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 22:13:18 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 22:13:18 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 22:13:18 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 22:13:18 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 22:13:18 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 22:13:18 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 22:13:19 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 22:13:19 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 22:13:19 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 22:13:19 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 22:16:50 org.apache.ibatis.binding.BindingException: Mapper method 'Back_end.dao.ContactMapper.creat attempted to return null from a method with a primitive return type (int).
+2016-02-24 22:16:50 org.apache.ibatis.binding.BindingException: Mapper method 'Back_end.dao.ContactMapper.creat attempted to return null from a method with a primitive return type (int).
+2016-02-24 22:16:50 org.apache.ibatis.binding.BindingException: Mapper method 'Back_end.dao.ContactMapper.creat attempted to return null from a method with a primitive return type (int).
+2016-02-24 22:16:50 org.apache.ibatis.binding.BindingException: Mapper method 'Back_end.dao.ContactMapper.creat attempted to return null from a method with a primitive return type (int).
+2016-02-24 22:16:50 org.apache.ibatis.binding.BindingException: Mapper method 'Back_end.dao.ContactMapper.creat attempted to return null from a method with a primitive return type (int).
+2016-02-24 22:16:50 org.apache.ibatis.binding.BindingException: Mapper method 'Back_end.dao.ContactMapper.creat attempted to return null from a method with a primitive return type (int).
+2016-02-24 22:16:50 org.apache.ibatis.binding.BindingException: Mapper method 'Back_end.dao.ContactMapper.creat attempted to return null from a method with a primitive return type (int).
+2016-02-24 22:16:50 org.apache.ibatis.binding.BindingException: Mapper method 'Back_end.dao.ContactMapper.creat attempted to return null from a method with a primitive return type (int).
+2016-02-24 22:16:50 org.apache.ibatis.binding.BindingException: Mapper method 'Back_end.dao.ContactMapper.creat attempted to return null from a method with a primitive return type (int).
+2016-02-24 22:16:50 org.apache.ibatis.binding.BindingException: Mapper method 'Back_end.dao.ContactMapper.creat attempted to return null from a method with a primitive return type (int).
+2016-02-24 22:17:33 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 22:17:33 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 22:17:33 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 22:17:33 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 22:17:33 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 22:17:33 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 22:17:33 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 22:17:33 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 22:17:33 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 22:17:33 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 22:18:06 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 22:18:06 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 22:18:06 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 22:18:06 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 22:18:06 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 22:18:06 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 22:18:06 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 22:18:06 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 22:18:06 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 22:18:06 org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+### The error may exist in Back_end/dao/ContactMapper.java (best guess)
+### The error may involve Back_end.dao.ContactMapper.selectById
+### The error occurred while handling results
+### SQL: SELECT * FROM contacts WHERE id = ?
+### Cause: org.apache.ibatis.reflection.ReflectionException: Error instantiating class Back_end.entity.Contact with invalid types () or values (). Cause: java.lang.NoSuchMethodException: Back_end.entity.Contact.<init>()
+2016-02-24 23:49:56 org.apache.ibatis.binding.BindingException: Mapper method 'Back_end.dao.ContactMapper.creat' has an unsupported return type: class Back_end.entity.Contact
+2016-02-24 23:49:56 org.apache.ibatis.binding.BindingException: Mapper method 'Back_end.dao.ContactMapper.creat' has an unsupported return type: class Back_end.entity.Contact
+2016-02-24 23:49:57 org.apache.ibatis.binding.BindingException: Mapper method 'Back_end.dao.ContactMapper.creat' has an unsupported return type: class Back_end.entity.Contact
+2016-02-24 23:49:57 org.apache.ibatis.binding.BindingException: Mapper method 'Back_end.dao.ContactMapper.creat' has an unsupported return type: class Back_end.entity.Contact
+2016-02-24 23:49:57 org.apache.ibatis.binding.BindingException: Mapper method 'Back_end.dao.ContactMapper.creat' has an unsupported return type: class Back_end.entity.Contact
+2016-02-24 23:49:57 org.apache.ibatis.binding.BindingException: Mapper method 'Back_end.dao.ContactMapper.creat' has an unsupported return type: class Back_end.entity.Contact
+2016-02-24 23:49:57 org.apache.ibatis.binding.BindingException: Mapper method 'Back_end.dao.ContactMapper.creat' has an unsupported return type: class Back_end.entity.Contact
+2016-02-24 23:49:57 org.apache.ibatis.binding.BindingException: Mapper method 'Back_end.dao.ContactMapper.creat' has an unsupported return type: class Back_end.entity.Contact
+2016-02-24 23:49:57 org.apache.ibatis.binding.BindingException: Mapper method 'Back_end.dao.ContactMapper.creat' has an unsupported return type: class Back_end.entity.Contact
+2016-02-24 23:49:57 org.apache.ibatis.binding.BindingException: Mapper method 'Back_end.dao.ContactMapper.creat' has an unsupported return type: class Back_end.entity.Contact
+2016-02-26 00:33:51 org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "INSERT INTO CONTACTS (ID,NAME) VALUE[*](NULL,?)   "; ожидалось "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"
+Syntax error in SQL statement "INSERT INTO CONTACTS (ID,NAME) VALUE[*](NULL,?)   "; expected "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"; SQL statement:
+INSERT INTO contacts (id,name) VALUE(NULL,?)   [42001-185]
+### SQL: INSERT INTO contacts (id,name) VALUE(NULL,?)
+### Cause: org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "INSERT INTO CONTACTS (ID,NAME) VALUE[*](NULL,?)   "; ожидалось "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"
+Syntax error in SQL statement "INSERT INTO CONTACTS (ID,NAME) VALUE[*](NULL,?)   "; expected "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"; SQL statement:
+INSERT INTO contacts (id,name) VALUE(NULL,?)   [42001-185]
+; bad SQL grammar []; nested exception is org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "INSERT INTO CONTACTS (ID,NAME) VALUE[*](NULL,?)   "; ожидалось "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"
+Syntax error in SQL statement "INSERT INTO CONTACTS (ID,NAME) VALUE[*](NULL,?)   "; expected "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"; SQL statement:
+INSERT INTO contacts (id,name) VALUE(NULL,?)   [42001-185]
+2016-02-26 00:37:36 org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "INSERT INTO CONTACTS VALUE[*](NULL,?)   "; ожидалось "., (, DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"
+Syntax error in SQL statement "INSERT INTO CONTACTS VALUE[*](NULL,?)   "; expected "., (, DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"; SQL statement:
+INSERT INTO contacts VALUE(NULL,?)   [42001-185]
+### SQL: INSERT INTO contacts VALUE(NULL,?)
+### Cause: org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "INSERT INTO CONTACTS VALUE[*](NULL,?)   "; ожидалось "., (, DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"
+Syntax error in SQL statement "INSERT INTO CONTACTS VALUE[*](NULL,?)   "; expected "., (, DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"; SQL statement:
+INSERT INTO contacts VALUE(NULL,?)   [42001-185]
+; bad SQL grammar []; nested exception is org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "INSERT INTO CONTACTS VALUE[*](NULL,?)   "; ожидалось "., (, DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"
+Syntax error in SQL statement "INSERT INTO CONTACTS VALUE[*](NULL,?)   "; expected "., (, DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"; SQL statement:
+INSERT INTO contacts VALUE(NULL,?)   [42001-185]
+2016-02-26 00:38:23 org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "INSERT INTO CONTACTS (ID,NAME) VALUE[*](NULL,?);  "; ожидалось "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"
+Syntax error in SQL statement "INSERT INTO CONTACTS (ID,NAME) VALUE[*](NULL,?);  "; expected "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"; SQL statement:
+INSERT INTO contacts (id,name) VALUE(NULL,?);  [42001-185]
+### SQL: INSERT INTO contacts (id,name) VALUE(NULL,?);
+### Cause: org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "INSERT INTO CONTACTS (ID,NAME) VALUE[*](NULL,?);  "; ожидалось "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"
+Syntax error in SQL statement "INSERT INTO CONTACTS (ID,NAME) VALUE[*](NULL,?);  "; expected "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"; SQL statement:
+INSERT INTO contacts (id,name) VALUE(NULL,?);  [42001-185]
+; bad SQL grammar []; nested exception is org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "INSERT INTO CONTACTS (ID,NAME) VALUE[*](NULL,?);  "; ожидалось "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"
+Syntax error in SQL statement "INSERT INTO CONTACTS (ID,NAME) VALUE[*](NULL,?);  "; expected "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"; SQL statement:
+INSERT INTO contacts (id,name) VALUE(NULL,?);  [42001-185]
+2016-02-26 00:39:11 org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "INSERT INTO CONTACTS (NAME) VALUE[*](?);  "; ожидалось "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"
+Syntax error in SQL statement "INSERT INTO CONTACTS (NAME) VALUE[*](?);  "; expected "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"; SQL statement:
+INSERT INTO contacts (name) VALUE(?);  [42001-185]
+### SQL: INSERT INTO contacts (name) VALUE(?);
+### Cause: org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "INSERT INTO CONTACTS (NAME) VALUE[*](?);  "; ожидалось "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"
+Syntax error in SQL statement "INSERT INTO CONTACTS (NAME) VALUE[*](?);  "; expected "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"; SQL statement:
+INSERT INTO contacts (name) VALUE(?);  [42001-185]
+; bad SQL grammar []; nested exception is org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "INSERT INTO CONTACTS (NAME) VALUE[*](?);  "; ожидалось "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"
+Syntax error in SQL statement "INSERT INTO CONTACTS (NAME) VALUE[*](?);  "; expected "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"; SQL statement:
+INSERT INTO contacts (name) VALUE(?);  [42001-185]
+2016-02-26 00:43:27 org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "INSERT INTO CONTACTS (NAME) VALUE[*](?)  "; ожидалось "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"
+Syntax error in SQL statement "INSERT INTO CONTACTS (NAME) VALUE[*](?)  "; expected "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"; SQL statement:
+INSERT INTO contacts (name) VALUE(?)  [42001-185]
+### SQL: INSERT INTO contacts (name) VALUE(?)
+### Cause: org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "INSERT INTO CONTACTS (NAME) VALUE[*](?)  "; ожидалось "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"
+Syntax error in SQL statement "INSERT INTO CONTACTS (NAME) VALUE[*](?)  "; expected "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"; SQL statement:
+INSERT INTO contacts (name) VALUE(?)  [42001-185]
+; bad SQL grammar []; nested exception is org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "INSERT INTO CONTACTS (NAME) VALUE[*](?)  "; ожидалось "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"
+Syntax error in SQL statement "INSERT INTO CONTACTS (NAME) VALUE[*](?)  "; expected "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"; SQL statement:
+INSERT INTO contacts (name) VALUE(?)  [42001-185]
+2016-02-26 00:45:28 org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "INSERT INTO CONTACTS (NAME) VALUE[*]('fhksdj')  "; ожидалось "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"
+Syntax error in SQL statement "INSERT INTO CONTACTS (NAME) VALUE[*]('fhksdj')  "; expected "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"; SQL statement:
+INSERT INTO contacts (name) VALUE('fhksdj')  [42001-185]
+### SQL: INSERT INTO contacts (name) VALUE('fhksdj')
+### Cause: org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "INSERT INTO CONTACTS (NAME) VALUE[*]('fhksdj')  "; ожидалось "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"
+Syntax error in SQL statement "INSERT INTO CONTACTS (NAME) VALUE[*]('fhksdj')  "; expected "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"; SQL statement:
+INSERT INTO contacts (name) VALUE('fhksdj')  [42001-185]
+; bad SQL grammar []; nested exception is org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "INSERT INTO CONTACTS (NAME) VALUE[*]('fhksdj')  "; ожидалось "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"
+Syntax error in SQL statement "INSERT INTO CONTACTS (NAME) VALUE[*]('fhksdj')  "; expected "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"; SQL statement:
+INSERT INTO contacts (name) VALUE('fhksdj')  [42001-185]
+2016-02-26 00:47:03 org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: org.h2.jdbc.JdbcSQLException: Таблица "CONTACT" не найдена
+Table "CONTACT" not found; SQL statement:
+INSERT INTO contact (name) VALUE('fhksdj')  [42102-185]
+### SQL: INSERT INTO contact (name) VALUE('fhksdj')
+### Cause: org.h2.jdbc.JdbcSQLException: Таблица "CONTACT" не найдена
+Table "CONTACT" not found; SQL statement:
+INSERT INTO contact (name) VALUE('fhksdj')  [42102-185]
+; bad SQL grammar []; nested exception is org.h2.jdbc.JdbcSQLException: Таблица "CONTACT" не найдена
+Table "CONTACT" not found; SQL statement:
+INSERT INTO contact (name) VALUE('fhksdj')  [42102-185]
+2016-02-26 00:50:29 org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "INSERT INTO CONTACTS (ID,NAME) VALUE[*](NULL,'fhksdj')  "; ожидалось "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"
+Syntax error in SQL statement "INSERT INTO CONTACTS (ID,NAME) VALUE[*](NULL,'fhksdj')  "; expected "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"; SQL statement:
+INSERT INTO contacts (id,name) VALUE(null,'fhksdj')  [42001-185]
+### SQL: INSERT INTO contacts (id,name) VALUE(null,'fhksdj')
+### Cause: org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "INSERT INTO CONTACTS (ID,NAME) VALUE[*](NULL,'fhksdj')  "; ожидалось "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"
+Syntax error in SQL statement "INSERT INTO CONTACTS (ID,NAME) VALUE[*](NULL,'fhksdj')  "; expected "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"; SQL statement:
+INSERT INTO contacts (id,name) VALUE(null,'fhksdj')  [42001-185]
+; bad SQL grammar []; nested exception is org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "INSERT INTO CONTACTS (ID,NAME) VALUE[*](NULL,'fhksdj')  "; ожидалось "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"
+Syntax error in SQL statement "INSERT INTO CONTACTS (ID,NAME) VALUE[*](NULL,'fhksdj')  "; expected "DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"; SQL statement:
+INSERT INTO contacts (id,name) VALUE(null,'fhksdj')  [42001-185]
