@@ -29,11 +29,13 @@ public class ContactService {
 
 
     /*
+    * добавляет элемент в БД и временное хранилище.
     *
+    * синхронезирован по временному хранилищу во избежание потери данных
     *
     * */
     public int addContact(Contact contact) {
-            return contactMapper.creat(contact);
+        return contactMapper.creat(contact);
     }
     /*
     *
@@ -58,6 +60,7 @@ public class ContactService {
         Pattern pattern = Pattern.compile(filter);
         int i=0;
         for (Contact name : contactMapper.selectAllNames()) {
+
             if (!(pattern.matcher(name.getName()).matches())) {
                 if (stastIndex<=i&&finishIndex>i){
                     result.add(name);
@@ -65,9 +68,10 @@ public class ContactService {
                         return result;
                     }
                 }
-                i++;
+                    i++;
             }
         }
+
         return result;
 
     }
