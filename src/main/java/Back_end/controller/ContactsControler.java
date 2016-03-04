@@ -33,16 +33,13 @@ public class ContactsControler {
     * */
     @RequestMapping(method = RequestMethod.GET)
     public List<Contact> getPageofContactsByFilter(@RequestParam(value = "nameFilter") String filter,
-                                                   @RequestParam(value = "limit", required = false) Integer limit,
-                                                   @RequestParam(value = "page", required = false) Integer page) {
+                                                   @RequestParam(value = "limit", required = false) Long limit,
+                                                   @RequestParam(value = "page", required = false) Long page) {
 
 
         if (limit == null) {
-            return contactService.calculationOfborders(filter, 0, 0);
+            return contactService.calculationOfborders(filter, Long.MAX_VALUE, 1L);
         }
-
-
-
         return contactService.calculationOfborders(filter, limit, page == null ? 1 : page);
     }
 

@@ -27,7 +27,7 @@ public class App implements CommandLineRunner {
     @Override
     public void run(String... strings) throws Exception {
 
-        //new InsertDB(contactService).insertElement(1000);
+        new InsertDB(contactService).insertElement(1_000_000);
 
     }
 }

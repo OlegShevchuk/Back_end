@@ -19,5 +19,20 @@ public interface ContactMapper {
     @Select("SELECT * FROM contacts")
     List<Contact> selectAllNames();
 
+    @Select("SELECT * FROM contacts WHERE id = #{id}")
+    Contact findById(long id);
+
+
+    /*
+    * выборка элементов из заданого диапазона
+    * */
+    @Select("SELECT * FROM contacts WHERE id  BETWEEN #{0} AND #{1}")
+    List<Contact> selectionFromRange(long start, long finish);
+
+    /*
+    * получение максимального значения ID
+    * */
+    @Select("SELECT MAX(ID) FROM contacts")
+    Long findByMaxId();
 
 }

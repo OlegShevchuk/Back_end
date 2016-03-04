@@ -29,52 +29,76 @@ public class ContactService {
 
 
     /*
-    * добавляет элемент в БД и временное хранилище.
+    * добавляет элемент в БД
     *
-    * синхронезирован по временному хранилищу во избежание потери данных
     *
     * */
     public int addContact(Contact contact) {
         return contactMapper.creat(contact);
     }
     /*
-    *
+    *установка лимита и вычисления количества элементов не входящих в ответ
     * */
-    public List<Contact> calculationOfborders(String filter, int limit, int page) {
-
-        int startIndex=0;
-        int finishIndex=Integer.MAX_VALUE;
-        if (limit>0&&page>0){
-            startIndex=limit*(page-1);
-            finishIndex=limit*page;
-        }
-        return selections(filter,startIndex,finishIndex);
+    public List<Contact> calculationOfborders(String filter, Long limit, Long page) {
+        this.limit=limit;
+        startIndex=limit*(page-1);
+        return selections(filter);
     }
 
     /*
-    * выборка элементов из листа
+    * подготовка фильтра
+    * разбитие на диапазоны и пошаговые запросы фильтра
     *
     * */
-    private List<Contact> selections(String filter, int stastIndex, int finishIndex) {
+    public List<Contact> selections(String filter) {
         List<Contact> result = new ArrayList<>();
         Pattern pattern = Pattern.compile(filter);
-        int i=0;
-        for (Contact name : contactMapper.selectAllNames()) {
 
-            if (!(pattern.matcher(name.getName()).matches())) {
-                if (stastIndex<=i&&finishIndex>i){
-                    result.add(name);
-                    if (i==finishIndex) {
-                        return result;
-                    }
-                }
-                    i++;
+        long d=contactMapper.findByMaxId()/limit+1;
+        for (int j=0; j<d; j++) {
+            if (searchRange(pattern, result, j).size()==limit) {
+                return result;
             }
         }
 
         return result;
-
     }
+
+    /*
+    * startIndex-количество элементов не попадающих в результат
+    */
+    private long startIndex;
+
+    /*
+    * limit- размер диапазона и количество элементов в ответе
+    */
+    private long limit;
+
+    /*
+    * фильтрует элементы в заданом диапазоне
+    *
+    * j- порядковый номер диапазона
+    *
+    *
+    * pattern- маска элементов которые не входят в ответ
+    *
+    * */
+    private List<Contact> searchRange(Pattern pattern, List<Contact> result,  int j){
+
+        for (Contact name : contactMapper.selectionFromRange(j * limit+1, (j + 1) * limit)) {
+            if (!(pattern.matcher(name.getName()).matches())) {
+                if (startIndex-- < 0) {
+                    result.add(name);
+                    if (result.size() == limit) {
+                        return result;
+                    }
+                }
+
+            }
+        }
+        return result;
+        }
+
 
 
 }
