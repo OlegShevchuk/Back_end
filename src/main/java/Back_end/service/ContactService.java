@@ -39,7 +39,7 @@ public class ContactService {
     /*
     *установка лимита и вычисления количества элементов не входящих в ответ
     * */
-    public List<Contact> calculationOfborders(String filter, Long limit, Long page) {
+    public List<Contact> calculationOfborders(String filter, long limit, long page) {
         this.limit=limit;
         startIndex=limit*(page-1);
         return selections(filter);

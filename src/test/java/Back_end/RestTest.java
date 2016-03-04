@@ -51,14 +51,12 @@ public class RestTest {
     /*
     проверка на ожидаемый результат
     */
-    @Test(timeout = 5000)
+    @Test(timeout = 500)
     public void testTime() throws Exception{
 
-        long time=new Date().getTime();
-        ResultActions resultActions=mockMvc.perform(get("/hello/contacts?nameFilter=^[b-z].*$&limit=200&page=30"));
-        time=new Date().getTime()-time;
 
-        System.err.println(time+" Times ago!!!!!");
+        ResultActions resultActions=mockMvc.perform(get("/hello/contacts?nameFilter=^[b-z].*$&limit=200&page=30"));
+
     }
 
     /*
